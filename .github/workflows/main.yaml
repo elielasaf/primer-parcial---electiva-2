@@ -8,4 +8,4 @@ jobs:
       - name: Instalar Surge
         run: npm install -g surge
       - name: Desplegar
-        run: surge ./ --project ./ --domain primer-parcial.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ --project ./ --domain Eliel-Diaz-primer-parcial.surge.sh --token ${{ secrets.SURGE_TOKEN }}
